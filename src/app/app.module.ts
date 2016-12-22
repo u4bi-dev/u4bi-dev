@@ -8,6 +8,7 @@ import { InfoComponent } from './info/info.component';
 import { DailyComponent } from './daily/daily.component';
 import { OverComponent } from './over/over.component';
 import { MusicComponent } from './music/music.component';
+import { MinigameComponent } from './minigame/minigame.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MusicComponent } from './music/music.component';
     InfoComponent,
     DailyComponent,
     OverComponent,
-    MusicComponent
+    MusicComponent,
+    MinigameComponent
   ],
   imports: [
     BrowserModule,
