@@ -10,6 +10,7 @@ import { OverComponent } from './over/over.component';
 import { MusicComponent } from './music/music.component';
 import { MinigameComponent } from './minigame/minigame.component';
 import { EscapeComponent } from './escape/escape.component';
+import { FpsComponent } from './fps/fps.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { EscapeComponent } from './escape/escape.component';
     OverComponent,
     MusicComponent,
     MinigameComponent,
-    EscapeComponent
+    EscapeComponent,
+    FpsComponent
   ],
   imports: [
     BrowserModule,
