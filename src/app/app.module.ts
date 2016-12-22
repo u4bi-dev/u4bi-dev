@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { InfoComponent } from './info/info.component';
 import { DailyComponent } from './daily/daily.component';
+import { OverComponent } from './over/over.component';
+import { MusicComponent } from './music/music.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InfoComponent,
-    DailyComponent
+    DailyComponent,
+    OverComponent,
+    MusicComponent
   ],
   imports: [
     BrowserModule,
