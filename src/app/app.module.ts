@@ -9,6 +9,7 @@ import { DailyComponent } from './daily/daily.component';
 import { OverComponent } from './over/over.component';
 import { MusicComponent } from './music/music.component';
 import { MinigameComponent } from './minigame/minigame.component';
+import { EscapeComponent } from './escape/escape.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MinigameComponent } from './minigame/minigame.component';
     DailyComponent,
     OverComponent,
     MusicComponent,
-    MinigameComponent
+    MinigameComponent,
+    EscapeComponent
   ],
   imports: [
     BrowserModule,
