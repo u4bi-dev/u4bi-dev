@@ -11,6 +11,7 @@ import { MusicComponent } from './music/music.component';
 import { MinigameComponent } from './minigame/minigame.component';
 import { EscapeComponent } from './escape/escape.component';
 import { FpsComponent } from './fps/fps.component';
+import { LectureComponent } from './lecture/lecture.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FpsComponent } from './fps/fps.component';
     MusicComponent,
     MinigameComponent,
     EscapeComponent,
-    FpsComponent
+    FpsComponent,
+    LectureComponent
   ],
   imports: [
     BrowserModule,
