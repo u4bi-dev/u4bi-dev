@@ -15,6 +15,7 @@ import { LectureComponent } from './lecture/lecture.component';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { MainComponent } from './main/main.component';
+import { CipherComponent } from './cipher/cipher.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { MainComponent } from './main/main.component';
     EscapeComponent,
     FpsComponent,
     LectureComponent,
-    MainComponent
+    MainComponent,
+    CipherComponent
   ],
   imports: [
     BrowserModule,
