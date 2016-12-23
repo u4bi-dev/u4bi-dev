@@ -10,8 +10,8 @@ export class MainComponent implements OnInit {
   terminalImagePath : string;
 
   constructor() {
-    this.blockImagePath = '../../../images/block.png';
-    this.terminalImagePath = '../../../images/Terminal.png';
+    this.blockImagePath = 'http://img.deusm.com/networkcomputing/2015/04/1319903/lego-297773_640.png';
+    this.terminalImagePath = 'https://manjaro.ru/uploads/images/00/00/03/2016/08/31/d364a63c09.png';
   }
 
   ngOnInit() {

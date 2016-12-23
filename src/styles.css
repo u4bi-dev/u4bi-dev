@@ -98,11 +98,11 @@ body{
   #main img{
     width:50px;
     height:50px;
-    animation-duration: 1.5s;
+    animation-duration: 1.8s;
     animation-name: slidein;
   }
   @keyframes slidein {
-    from {margin-left: 1000%;}
+    from {margin-left: 3000%;}
     to {margin-left: 0%;}
   }
 
