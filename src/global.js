@@ -1,19 +1,28 @@
-/* google-degine.js*/
+var flag, info = [];
 
-var flag = false;
+window.onload = function(){
+  flag = false;
+  info = {
+    content :document.getElementById('content'),
+    dos :document.getElementById('dos'),
+    dos_input : document.getElementById('dos-input')
+  };
+}
+
 function scroll(num){
-  document.getElementById('content').scrollTop = num;
+  info.content.scrollTop = num;
 }
 
 function terminel(){
-  flag = !flag;
-  if(flag) document.getElementById('dos').style.display = 'none';
+  if(flag) info.dos.style.display = 'none';
   else{
-    document.getElementById('dos').style.display = 'block';
-    document.getElementById('dos-input').focus();
+    info.dos.style.display = 'block';
+    info.dos_input.focus();
   }
+
+  flag = !flag;
 }
 
 function dosFocus(){
-  document.getElementById('dos-input').focus();
+  info.dos_input.focus();
 }
