@@ -13,6 +13,9 @@ import { EscapeComponent } from './escape/escape.component';
 import { FpsComponent } from './fps/fps.component';
 import { LectureComponent } from './lecture/lecture.component';
 
+import { AppRoutingModule } from './app-routing/app-routing.module';
+import { MainComponent } from './main/main.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,12 +26,14 @@ import { LectureComponent } from './lecture/lecture.component';
     MinigameComponent,
     EscapeComponent,
     FpsComponent,
-    LectureComponent
+    LectureComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
