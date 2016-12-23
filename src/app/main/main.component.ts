@@ -6,8 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
+  blockImagePath : string;
+  terminalImagePath : string;
 
-  constructor() { }
+  constructor() {
+    this.blockImagePath = '../../../images/block.png';
+    this.terminalImagePath = '../../../images/Terminal.png';
+  }
 
   ngOnInit() {
   }

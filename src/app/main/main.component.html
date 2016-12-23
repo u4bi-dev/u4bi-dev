@@ -57,7 +57,7 @@
     </div>
     
     <div id="main">
-      <img style="width:50px; height:50px;" src="images/block.png"><br>U4BI.COM
+      <img [src]="blockImagePath"><br>U4BI.COM
       <div class="main-nav-bar">
         <h4>
           <p id="info" onclick="scroll(0)">소개</p>
@@ -77,6 +77,6 @@
       <div id="dos-send"><span>u4bi@localhost / $</span> <input id="dos-input" type="text"></div>
     </div>
     <div id="terminal">
-      <img style="width:50px; height:50px; cursor: pointer;" src="images/Terminal.png" onclick="terminel()">
+      <img [src]="terminalImagePath" onclick="terminel()">
     </div>
   </div>
